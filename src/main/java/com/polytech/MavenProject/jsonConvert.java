@@ -1,5 +1,7 @@
 package com.polytech.MavenProject;
 
+import com.polytech.MavenProject.business.Comment;
+
 public class jsonConvert {
 	private Comment cmt;
 	private Long id;

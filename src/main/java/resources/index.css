@@ -1,15 +1,22 @@
 
         body {
-            padding-top: 50px;
+            padding-top: 30px;
         }
         .starter-template {
             padding: 40px 15px;
-            text-align: center;
+            /* text-align: center; */
         }
-
+        .form-inline {
+            text-align: center;
+            
+        }
+        #postBox{
+            border:2px solid rgb(145, 159, 224);
+            height: 100px
+        }
         .detailBox {
             width:100%;
-            border:1px solid #bbb;
+            border:2px solid #bbb;
             margin:20px 0px 20px 0px;
         }
         .titleBox {
@@ -38,6 +45,7 @@
         }
         .taskDescription {
             margin-top:10px 0;
+            
         }
         .commentList {
             padding:0;
